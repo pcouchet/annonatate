@@ -1,0 +1,46 @@
+---
+canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "REX",
+            "purpose": "editing",
+            "creator": {
+                "id": "pcouchet",
+                "name": "Pierre Couchet"
+            },
+            "created": "2022-06-22T12:05:20.372Z",
+            "modified": "2022-06-22T12:05:31.686Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "REX",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pcouchet",
+                "name": "Pierre Couchet"
+            },
+            "created": "2022-06-22T12:05:35.320Z",
+            "modified": "2022-06-22T12:05:36.420Z"
+        }
+    ],
+    "target": {
+        "source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1633.4429931640625,225.47621154785156,124.54541015625,58.18180847167969"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "d45fa23e-d916-4d8b-bd3c-ab009e6fc359.json",
+    "motivation": "commenting"
+}
